@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    h1 {
+      color: blue;
+      font-family: verdana;
+      font-size: 300%;
+    }
+    p {
+      color: black;
+      font-family: courier;
+      font-size: 140%;
+    }
+    p {
+      color:black
+    </style>
+
+
+<body>
+
+<form action="/action_page.php">
+  <div class="container">
+    <h1>Registration</h1>
+    <p>Fill in the form.</p>
+    
+
+    <label for="fname"><b>First name</b></label>
+    <input type="text" placeholder="Enter First name" name="fname" id="fname" required>
+
+    <br><br><label for="mname"><b>Middle name</b></label>
+    <input type="text" placeholder="Enter Middle name" name="mname" id="mname" required>
+
+    <br><br><label for="lname"><b>Last name</b></label>
+    <input type="text" placeholder="Last name" name="lname" id="name" required>
+    
+    <p><b>Gender</b>:</p>
+  <input type="radio" id="Male" name="Gender" value="Male">
+  <label for="m">Male</label><br>
+  <input type="radio" id="Female" name="Gender" value="Female">
+  <label for="f">Female</label><br>
+
+ <br> <label for="Email"><b>Email</b></label>
+  <input type="text" placeholder="Enter Email" name="Email" id="Email" required><br>
+    
+
+
+  <form action="/action_page.php">
+    <br><br><label for="homeaddress"><b>Home Address</b>:</label>
+    <textarea id="homeaddress" name="homeaddress" rows="1" cols="0">
+     
+      </textarea>
+      <br><br>
+    
+    </form>
+
+  <form action="/action_page.php">
+    <input type="checkbox" id="hobby" name="hobby" value="Computer Games">
+    <label for="hobby">Computer Games</label><br>
+    <input type="checkbox" id="hobby" name="hobby" value="Playing Music Instruments">
+    <label for="hobby">Playing Music Instruments</label><br>
+    <input type="checkbox" id="hobby" name="hobby" value="Cooking">
+    <label for="hobby">Cooking</label><br>
+    <input type="checkbox" id="hobby" name="hobby" value="Drawing">
+    <label for="hobby">Drawing</label><br>
+
+   <br> <label for="color">Favorite Color:</label>
+
+<select name="colors" id="favoritecolor">
+  <option value="Red">Red</option>
+  <option value="Orange">Orange</option>
+  <option value="Yellow">Yellow</option>
+  <option value="Green">Green</option>
+</select>
+  
+  </form>
+  
+  <form action="/action_page.php">
+    <br><label for="saysomethingaboutyourself"><b>Say say something about yourself</b>:</label>
+    <textarea id="saysomethingaboutyourself" name="saysomethingaboutyourself" rows="1" cols="0">
+     
+      </textarea>
+     <br><br> <button type="submit" value="Submit">Submit</button>
+      <button type="reset" value="Reset">Reset</button>
+
+  </div>
+  
+  
+</form>
+
+</body>
+</html>
